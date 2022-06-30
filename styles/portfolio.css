@@ -16,7 +16,8 @@ h2 {
   font-family: var(--heading-font-family);
   font-size: 64px;
 }
-h4 {
+h3 {
+  font-family: var(--heading-font-family);
   font-size: 48px;
 }
 p {
@@ -28,7 +29,7 @@ p {
 .hero {
   background: var(--branding-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-family: var(--heading-font-family);
@@ -65,13 +66,13 @@ p {
   padding: 120px 60px;
 }
 .content-container {
-  padding: 120px 60px;
+  padding: 60px 20px;
 }
 .content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.acontent-container h2 {
+.content-container h2 {
   font-size: 18px;
 }
 .content {
@@ -139,7 +140,7 @@ footer .social-links:hover {
 }
 footer .contact-box {
   background-color: #ffafcd;
-  padding: 30px 120px;
+  padding: 30px 80px;
   border-radius: 10px;
 }
 footer .contact-box p {
@@ -157,9 +158,6 @@ footer .contact-box p {
   h2 {
     font-size: 44px;
     line-height: 1;
-  }
-  .hero {
-    padding: 80px 20px;
   }
   .content-container {
     text-align: center;

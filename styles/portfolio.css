@@ -86,6 +86,33 @@ p {
 .about-me-pic {
   border-radius: 40px;
 }
+.logo {
+  max-height: 40px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  padding: 20px;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-family: var(--heading-font-family);
+}
+nav a:hover,
+nav a.active {
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
 @media (max-width: 960px) {
   .project-description {
     padding: 20px;
@@ -105,5 +132,8 @@ p {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
